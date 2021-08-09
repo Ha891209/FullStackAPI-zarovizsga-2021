@@ -10,7 +10,7 @@ const ServiceSchema = mongoose.Schema({
     since: {
         type: Number,
         required: true,
-        default: true
+        default: 0
     },
     street: {
         type: String,
